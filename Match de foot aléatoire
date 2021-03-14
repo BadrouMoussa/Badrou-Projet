@@ -1,0 +1,14 @@
+from random import *
+
+
+
+
+liste = [1,2,3,4,5,6,7,8,9,10,11,12]
+
+for i in range (2):
+    liste.append( randint(1,12))
+    N = choice(liste)
+    print (N)
+#1 = FC Barcelona 2 = Real Madrid 3 = PSG 4 = Manchester United 5 = Manchester City
+#6 = Bayern 7 = Liverpool 8 = BV Borussia Dortmund 9 = Juventus 10 = Chelsea
+#11 = Arsenal 12 = Athlético Madrid
